@@ -9,8 +9,8 @@ This project will help the analytics team at Sparkify easily run SQL queries to 
 ### Modeling NoSQL Apache Cassandra database
 1. Design tables to answer the queries provided by the analytics team
 ##### Give me the artist, song title and song's length in the music app history that was heard during sessionId = 338, and itemInSession = 4
-#### Give me only the following: name of artist, song (sorted by itemInSession) and user (first and last name) for userid = 10, sessionid = 182
-#### Give me every user name (first and last) in my music app history who listened to the song 'All Hands Against His Own'
+##### Give me only the following: name of artist, song (sorted by itemInSession) and user (first and last name) for userid = 10, sessionid = 182
+##### Give me every user name (first and last) in my music app history who listened to the song 'All Hands Against His Own'
 2. Write Apache Cassandra CREATE KEYSPACE and SET KEYSPACE statements
 3. Develop CREATE statements for each of the tables to address each question
 4. Load the data with INSERT statement for each of the tables
@@ -21,4 +21,4 @@ This project will help the analytics team at Sparkify easily run SQL queries to 
 2. Load processed records into relevant tables in your data model
 3. Test by running SELECT statements after running the queries on the database
 # FILES IN REPOSITORY
-* Project_1B_ Project_Template.ipynb reads and process CSV files from event_data folder, and built the ETL pipeline to answer the queries provided by the analytics team.
+* Project_1B_ Project_Template.ipynb reads and processes CSV files from event_data folder, and built the ETL pipeline to answer the queries provided by the analytics team.
