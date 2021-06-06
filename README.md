@@ -8,9 +8,9 @@ This project will help the analytics team at Sparkify easily run SQL queries to 
 # DATABASE SCHEMA DESIGN & ETL PROCESS
 ### Modeling NoSQL Apache Cassandra database
 1. Design tables to answer the queries provided by the analytics team
-A. Give me the artist, song title and song's length in the music app history that was heard during sessionId = 338, and itemInSession = 4
-B. Give me only the following: name of artist, song (sorted by itemInSession) and user (first and last name) for userid = 10, sessionid = 182
-C. Give me every user name (first and last) in my music app history who listened to the song 'All Hands Against His Own'
+##### Give me the artist, song title and song's length in the music app history that was heard during sessionId = 338, and itemInSession = 4
+#### Give me only the following: name of artist, song (sorted by itemInSession) and user (first and last name) for userid = 10, sessionid = 182
+#### Give me every user name (first and last) in my music app history who listened to the song 'All Hands Against His Own'
 2. Write Apache Cassandra CREATE KEYSPACE and SET KEYSPACE statements
 3. Develop CREATE statements for each of the tables to address each question
 4. Load the data with INSERT statement for each of the tables
